@@ -1,10 +1,10 @@
 import React from 'react'
 import Profile from './Profile'
 
-export default function Saturn({ data }){
+export default function Saturn({ data,screen }){
     return(
-        <>
-            <Profile data={data}/>
-        </>
+        <div className="saturn">
+            <Profile data={data} screen={screen}/>
+        </div>
     )
 }

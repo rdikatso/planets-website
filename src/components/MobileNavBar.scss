@@ -1,0 +1,108 @@
+@import "../utilities";
+.mobile-navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+
+	background: url("../images/background-stars.svg");
+	background-color: #070724;
+}
+.mobile-wrapper {
+	display: flex;
+	justify-content: space-between;
+
+	padding: 16px 24px 17px 24px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+
+	h1 {
+		font-family: $primary-font;
+		font-weight: normal;
+		font-size: 28px;
+		line-height: 36px;
+		letter-spacing: -1.05px;
+		text-transform: uppercase;
+	}
+
+	svg {
+		margin-top: 10px;
+		cursor: pointer;
+	}
+}
+.links-wrapper {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 70px;
+	left: 0;
+	transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+	overflow: scroll;
+	z-index: 1000;
+	background: #070724;
+
+	display: flex;
+	flex-direction: column;
+	padding-right: 24px;
+	padding-left: 24px;
+
+	& div:first-child {
+		height: 65px;
+	}
+	& div:last-child {
+		border-bottom: none;
+	}
+	.circle {
+		background: white;
+		height: 20px;
+		width: 20px;
+		border-radius: 50%;
+
+		margin-right: 25px;
+	}
+
+	.link {
+		width: 319px;
+		height: 65px;
+		display: flex;
+		position: relative;
+
+		padding-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+		border-top: none;
+
+		a {
+			font-family: $secondary-font;
+			font-weight: bold;
+			font-size: 15px;
+			line-height: 25px;
+			/* identical to box height, or 167% */
+
+			text-align: center;
+			letter-spacing: 1.36364px;
+			text-transform: uppercase;
+
+			color: $primary-color;
+			text-decoration: none;
+		}
+
+		.chevron-icon {
+			position: absolute;
+			height: 8px;
+			width: 4px;
+			left: 300px;
+
+			margin-top: 5px;
+		}
+	}
+}
+
+.visible {
+	transform: translate3d(0vw, 0, 0);
+	overflow: hidden;
+}
+
+.hidden {
+	transform: translate3d(-100vw, 0, 0);
+}

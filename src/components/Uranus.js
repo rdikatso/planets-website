@@ -1,10 +1,10 @@
 import React from 'react'
 import Profile from './Profile'
 
-export default function Uranus({ data }){
+export default function Uranus({ data, screen }){
     return(
-        <>
-            <Profile data={data}/>
-        </>
+        <div className="uranus">
+            <Profile data={data} screen={screen}/>
+        </div>
     )
 }

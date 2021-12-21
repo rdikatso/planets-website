@@ -1,0 +1,136 @@
+.content-para {
+  background: red;
+}
+
+.active-btn {
+  background: red;
+}
+
+.mercury .img {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  left: calc(335px - 165px);
+  top: calc(328px - 126px);
+}
+
+.mercury .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.venus .img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: calc(280px - 165px);
+  top: calc(273px - 126px);
+}
+
+.venus .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.earth .img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: calc(255px - 165px);
+  top: calc(248px - 126px);
+}
+
+.earth .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.mars .img {
+  position: absolute;
+  width: 336px;
+  height: 336px;
+  left: calc(312px - 165px);
+  top: calc(305px - 126px);
+}
+
+.mars .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.jupiter .img {
+  position: absolute;
+  width: 582px;
+  height: 582px;
+  left: calc(189px - 165px);
+  top: calc(182px - 126px);
+}
+
+.jupiter .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.saturn .img {
+  position: absolute;
+  width: 666.09px;
+  height: 666.09px;
+  left: calc(146.95px - 165px);
+  top: calc(155.95px - 126px);
+}
+
+.saturn .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.uranus .img {
+  position: absolute;
+  width: 458px;
+  height: 458px;
+  left: calc(251px - 165px);
+  top: calc(244px - 126px);
+}
+
+.uranus .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+.neptune .img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: calc(255px - 165px);
+  top: calc(248px - 126px);
+}
+
+.neptune .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+/*# sourceMappingURL=Profile.css.map */

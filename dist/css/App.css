@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio&family=Spartan:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+}
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background: url("./images/background-stars.svg");
+  background-color: #070724;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav h1 {
+  margin: 22px 594px 27px 32px;
+  font-family: "Antonio";
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.05px;
+  text-transform: uppercase;
+}
+
+nav .navbar-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav div {
+  width: 665px;
+  height: 25px;
+  margin-top: 33px;
+  margin-right: 40px;
+}
+
+nav a {
+  font-family: "Spartan";
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 25px;
+  text-decoration: none;
+  line-height: 25px;
+  /* identical to box height, or 227% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.planet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 165px;
+  margin-right: 165px;
+  position: relative;
+}
+
+.planet h1 {
+  font-family: "Antonio";
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 104px;
+  /* identical to box height */
+  text-transform: uppercase;
+  position: absolute;
+  width: 263px;
+  height: 104px;
+  left: calc(925px - 165px);
+  top: calc(212px - 126px);
+}
+
+.planet .content-para {
+  position: absolute;
+  width: 350px;
+  height: 150px;
+  left: calc(925px - 165px);
+  top: calc(339px - 126px);
+  font-family: "Spartan";
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+  color: #ffffff;
+}
+
+.planet .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  width: 164px;
+  height: 25px;
+  left: calc(925px - 165px);
+  top: calc(513px - 126px);
+  margin-bottom: 39px;
+  font-family: "Spartan";
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.planet .links span {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.planet .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  position: absolute;
+  width: 350px;
+  height: 176px;
+  left: calc(925px - 165px);
+  top: calc(577px - 126px);
+}
+
+.planet .btn button {
+  position: relative;
+  height: 48px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.planet .btn button span:first-child {
+  position: absolute;
+  height: 25px;
+  left: 8%;
+  right: 86.86%;
+  top: calc(50% - 25px / 2 + 0.5px);
+  font-family: "Spartan";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  letter-spacing: 2.57143px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.planet .btn button span:last-child {
+  position: absolute;
+  height: 25px;
+  left: 21.14%;
+  top: calc(50% - 25px / 2 + 0.5px);
+  font-family: "Spartan";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 25px;
+  /* identical to box height, or 208% */
+  letter-spacing: 2.57143px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.planet .btn button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.planet-facts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  position: absolute;
+  height: 128px;
+  bottom: 56px;
+  margin-left: 165px;
+  margin-right: 165px;
+  margin-top: 87px;
+}
+
+.planet-facts div {
+  width: 255px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding-left: 23px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.planet-facts p {
+  font-family: "Spartan";
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 25px;
+  /* identical to box height, or 227% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.planet-facts h1 {
+  font-family: "Antonio";
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*# sourceMappingURL=App.css.map */

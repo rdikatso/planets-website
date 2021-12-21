@@ -1,10 +1,11 @@
 import React from 'react'
 import Profile from './Profile'
 
-export default function Earth({ data }){
+export default function Earth({ data, screen }){
+
     return(
-        <>
-            <Profile data={data}/>
-        </>
+        <div className="earth">
+            <Profile data={data} screen={screen}/>
+        </div>
     )
 }

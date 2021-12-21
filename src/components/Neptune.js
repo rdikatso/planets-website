@@ -1,10 +1,10 @@
 import React from 'react'
 import Profile from './Profile'
 
-export default function Neptune({ data }){
+export default function Neptune({ data, screen }){
     return(
-        <>
-            <Profile data={data}/>
-        </>
+        <div className="neptune">
+            <Profile data={data} screen={screen}/>
+        </div>
     )
 }

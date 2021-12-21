@@ -1,10 +1,10 @@
 import React from 'react'
 import Profile from './Profile'
 
-export default function Venus({ data }){
+export default function Venus({ data,screen }){
     return(
-        <>
-            <Profile data={data}/>
-        </>
+        <div className="venus">
+            <Profile data={data} screen={screen}/>
+        </div>
     )
 }

@@ -1,0 +1,462 @@
+@import "../utilities";
+
+//This mixin creates the media queries allowing for the design to be responsive on smaller screens
+@mixin respond($breakpoint) {
+	@if $breakpoint == tablet {
+		@media (max-width: 768px) {
+			@content;
+		}
+	}
+	@if $breakpoint == mobile {
+		@media (max-width: 375px) {
+			@content;
+		}
+	}
+}
+
+.mercury {
+	.active-btn {
+		background: $mercury-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $mercury-btn !important;
+		}
+	}
+
+	.img {
+		position: absolute;
+		width: 290px;
+		height: 290px;
+		left: calc(335px - 165px);
+		top: calc(328px - 126px);
+
+		@include respond(tablet) {
+			width: 184px;
+			height: 184px;
+			left: calc(293px - 39px);
+			top: calc(306px - 159px);
+		}
+
+		@include respond(mobile) {
+			width: 111px;
+			height: 111px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: calc(215px - 68px);
+		}
+	}
+
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 103px;
+			height: 126px;
+			left: 296px;
+			top: 290px;
+		}
+
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 232px;
+		}
+	}
+}
+.venus {
+	.active-btn {
+		background: $venus-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $venus-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 400px;
+		height: 400px;
+		left: calc(280px - 165px);
+		top: calc(273px - 126px);
+
+		@include respond(tablet) {
+			position: absolute;
+			width: 253px;
+			height: 253px;
+			left: calc(258px - 39px);
+			top: calc(272px - 150px);
+		}
+
+		@include respond(mobile) {
+			position: absolute;
+			width: 154px;
+			height: 154px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			position: absolute;
+			width: 103px;
+			height: 126px;
+			left: 295px;
+			top: 300px;
+		}
+
+		@include respond(mobile) {
+			position: absolute;
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 230px;
+		}
+	}
+}
+
+.earth {
+	.active-btn {
+		background: $earth-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $earth-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 450px;
+		height: 450px;
+		left: calc(255px - 165px);
+		top: calc(248px - 126px);
+
+		@include respond(tablet) {
+			width: 253px;
+			height: 253px;
+			left: calc(258px - 39px);
+			top: calc(272px - 159px);
+		}
+		@include respond(mobile) {
+			width: 173px;
+			height: 173px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 92px;
+			height: 112px;
+			left: 299px;
+			top: 288px;
+		}
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 230px;
+		}
+	}
+}
+
+.mars {
+	.active-btn {
+		background: $mars-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $mars-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 336px;
+		height: 336px;
+		left: calc(312px - 165px);
+		top: calc(305px - 126px);
+
+		@include respond(tablet) {
+			width: 213px;
+			height: 213px;
+			left: calc(278px - 39px);
+			top: calc(292px - 159px);
+		}
+
+		@include respond(mobile) {
+			width: 129px;
+			height: 129px;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+	}
+
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 94px;
+			height: 126px;
+			left: 299px;
+			top: 300px;
+		}
+
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 230px;
+		}
+	}
+}
+.jupiter {
+	.active-btn {
+		background: $jupiter-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $jupiter-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 582px;
+		height: 582px;
+		left: calc(189px - 165px);
+		top: calc(182px - 126px);
+
+		@include respond(tablet) {
+			width: 369px;
+			height: 369px;
+			left: calc(200px - 39px);
+			top: calc(214px - 159px);
+		}
+		@include respond(mobile) {
+			width: 224px;
+			height: 224px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: calc(159px - 68px);
+		}
+	}
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 103px;
+			height: 126px;
+			left: 294px;
+			top: 294px;
+		}
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 235px;
+		}
+	}
+}
+.saturn {
+	.active-btn {
+		background: $saturn-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $saturn-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 666.09px;
+		height: 666.09px;
+		left: calc(146.95px - 165px);
+		top: calc(155.95px - 126px);
+
+		@include respond(tablet) {
+			width: 422px;
+			height: 422px;
+			left: calc(173px - 39px);
+			top: calc(187px - 159px);
+		}
+		@include respond(mobile) {
+			width: 256px;
+			height: 256px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: calc(144px - 68px);
+		}
+	}
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 103px;
+			height: 126px;
+			left: 293px;
+			top: 274px;
+		}
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 230px;
+		}
+	}
+}
+.uranus {
+	.active-btn {
+		background: $uranus-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $uranus-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 458px;
+		height: 458px;
+		left: calc(251px - 165px);
+		top: calc(244px - 126px);
+
+		@include respond(tablet) {
+			width: 290px;
+			height: 290px;
+			left: calc(240px - 39px);
+			top: calc(253px - 159px);
+		}
+		@include respond(mobile) {
+			width: 176px;
+			height: 176px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: calc(183px - 68px);
+		}
+	}
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 103px;
+			height: 126px;
+			left: 294px;
+			top: 294px;
+		}
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 235px;
+		}
+	}
+}
+.neptune {
+	.active-btn {
+		background: $neptune-btn !important;
+
+		@include respond(mobile) {
+			background: none !important;
+			border-bottom: 2px solid $neptune-btn !important;
+		}
+	}
+	.img {
+		position: absolute;
+		width: 450px;
+		height: 450px;
+		left: calc(255px - 165px);
+		top: calc(248px - 126px);
+
+		@include respond(tablet) {
+			width: 285px;
+			height: 285px;
+			left: calc(242px - 39px);
+			top: calc(256px - 159px);
+		}
+		@include respond(mobile) {
+			width: 173px;
+			height: 173px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: calc(184px - 68px);
+		}
+	}
+	.geology {
+		position: absolute;
+		width: 163px;
+		height: 199px;
+		left: calc(399px - 165px);
+		top: calc(554px - 126px);
+
+		@include respond(tablet) {
+			width: 103px;
+			height: 126px;
+			left: 294px;
+			top: 294px;
+		}
+		@include respond(mobile) {
+			width: 62px;
+			height: 76px;
+			left: 0;
+			right: 0;
+			margin: auto;
+			top: 235px;
+		}
+	}
+}

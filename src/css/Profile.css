@@ -1,0 +1,537 @@
+.mercury .active-btn {
+  background: #419ebb !important;
+}
+
+@media (max-width: 375px) {
+  .mercury .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #419ebb !important;
+  }
+}
+
+.mercury .img {
+  position: absolute;
+  width: 290px;
+  height: 290px;
+  left: calc(335px - 165px);
+  top: calc(328px - 126px);
+}
+
+@media (max-width: 768px) {
+  .mercury .img {
+    width: 184px;
+    height: 184px;
+    left: calc(293px - 39px);
+    top: calc(306px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .mercury .img {
+    width: 111px;
+    height: 111px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(215px - 68px);
+  }
+}
+
+.mercury .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .mercury .geology {
+    width: 103px;
+    height: 126px;
+    left: 296px;
+    top: 290px;
+  }
+}
+
+@media (max-width: 375px) {
+  .mercury .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 232px;
+  }
+}
+
+.venus .active-btn {
+  background: #eda249 !important;
+}
+
+@media (max-width: 375px) {
+  .venus .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #eda249 !important;
+  }
+}
+
+.venus .img {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: calc(280px - 165px);
+  top: calc(273px - 126px);
+}
+
+@media (max-width: 768px) {
+  .venus .img {
+    position: absolute;
+    width: 253px;
+    height: 253px;
+    left: calc(258px - 39px);
+    top: calc(272px - 150px);
+  }
+}
+
+@media (max-width: 375px) {
+  .venus .img {
+    position: absolute;
+    width: 154px;
+    height: 154px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.venus .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .venus .geology {
+    position: absolute;
+    width: 103px;
+    height: 126px;
+    left: 295px;
+    top: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .venus .geology {
+    position: absolute;
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 230px;
+  }
+}
+
+.earth .active-btn {
+  background: #6d2ed5 !important;
+}
+
+@media (max-width: 375px) {
+  .earth .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #6d2ed5 !important;
+  }
+}
+
+.earth .img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: calc(255px - 165px);
+  top: calc(248px - 126px);
+}
+
+@media (max-width: 768px) {
+  .earth .img {
+    width: 253px;
+    height: 253px;
+    left: calc(258px - 39px);
+    top: calc(272px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .earth .img {
+    width: 173px;
+    height: 173px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.earth .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .earth .geology {
+    width: 92px;
+    height: 112px;
+    left: 299px;
+    top: 288px;
+  }
+}
+
+@media (max-width: 375px) {
+  .earth .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 230px;
+  }
+}
+
+.mars .active-btn {
+  background: #d14c32 !important;
+}
+
+@media (max-width: 375px) {
+  .mars .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #d14c32 !important;
+  }
+}
+
+.mars .img {
+  position: absolute;
+  width: 336px;
+  height: 336px;
+  left: calc(312px - 165px);
+  top: calc(305px - 126px);
+}
+
+@media (max-width: 768px) {
+  .mars .img {
+    width: 213px;
+    height: 213px;
+    left: calc(278px - 39px);
+    top: calc(292px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .mars .img {
+    width: 129px;
+    height: 129px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+}
+
+.mars .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .mars .geology {
+    width: 94px;
+    height: 126px;
+    left: 299px;
+    top: 300px;
+  }
+}
+
+@media (max-width: 375px) {
+  .mars .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 230px;
+  }
+}
+
+.jupiter .active-btn {
+  background: #d83a34 !important;
+}
+
+@media (max-width: 375px) {
+  .jupiter .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #d83a34 !important;
+  }
+}
+
+.jupiter .img {
+  position: absolute;
+  width: 582px;
+  height: 582px;
+  left: calc(189px - 165px);
+  top: calc(182px - 126px);
+}
+
+@media (max-width: 768px) {
+  .jupiter .img {
+    width: 369px;
+    height: 369px;
+    left: calc(200px - 39px);
+    top: calc(214px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .jupiter .img {
+    width: 224px;
+    height: 224px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(159px - 68px);
+  }
+}
+
+.jupiter .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .jupiter .geology {
+    width: 103px;
+    height: 126px;
+    left: 294px;
+    top: 294px;
+  }
+}
+
+@media (max-width: 375px) {
+  .jupiter .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 235px;
+  }
+}
+
+.saturn .active-btn {
+  background: #cd5120 !important;
+}
+
+@media (max-width: 375px) {
+  .saturn .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #cd5120 !important;
+  }
+}
+
+.saturn .img {
+  position: absolute;
+  width: 666.09px;
+  height: 666.09px;
+  left: calc(146.95px - 165px);
+  top: calc(155.95px - 126px);
+}
+
+@media (max-width: 768px) {
+  .saturn .img {
+    width: 422px;
+    height: 422px;
+    left: calc(173px - 39px);
+    top: calc(187px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .saturn .img {
+    width: 256px;
+    height: 256px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(144px - 68px);
+  }
+}
+
+.saturn .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .saturn .geology {
+    width: 103px;
+    height: 126px;
+    left: 293px;
+    top: 274px;
+  }
+}
+
+@media (max-width: 375px) {
+  .saturn .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 230px;
+  }
+}
+
+.uranus .active-btn {
+  background: #1ec1a2 !important;
+}
+
+@media (max-width: 375px) {
+  .uranus .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #1ec1a2 !important;
+  }
+}
+
+.uranus .img {
+  position: absolute;
+  width: 458px;
+  height: 458px;
+  left: calc(251px - 165px);
+  top: calc(244px - 126px);
+}
+
+@media (max-width: 768px) {
+  .uranus .img {
+    width: 290px;
+    height: 290px;
+    left: calc(240px - 39px);
+    top: calc(253px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .uranus .img {
+    width: 176px;
+    height: 176px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(183px - 68px);
+  }
+}
+
+.uranus .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .uranus .geology {
+    width: 103px;
+    height: 126px;
+    left: 294px;
+    top: 294px;
+  }
+}
+
+@media (max-width: 375px) {
+  .uranus .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 235px;
+  }
+}
+
+.neptune .active-btn {
+  background: #2d68f0 !important;
+}
+
+@media (max-width: 375px) {
+  .neptune .active-btn {
+    background: none !important;
+    border-bottom: 2px solid #2d68f0 !important;
+  }
+}
+
+.neptune .img {
+  position: absolute;
+  width: 450px;
+  height: 450px;
+  left: calc(255px - 165px);
+  top: calc(248px - 126px);
+}
+
+@media (max-width: 768px) {
+  .neptune .img {
+    width: 285px;
+    height: 285px;
+    left: calc(242px - 39px);
+    top: calc(256px - 159px);
+  }
+}
+
+@media (max-width: 375px) {
+  .neptune .img {
+    width: 173px;
+    height: 173px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: calc(184px - 68px);
+  }
+}
+
+.neptune .geology {
+  position: absolute;
+  width: 163px;
+  height: 199px;
+  left: calc(399px - 165px);
+  top: calc(554px - 126px);
+}
+
+@media (max-width: 768px) {
+  .neptune .geology {
+    width: 103px;
+    height: 126px;
+    left: 294px;
+    top: 294px;
+  }
+}
+
+@media (max-width: 375px) {
+  .neptune .geology {
+    width: 62px;
+    height: 76px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 235px;
+  }
+}
+/*# sourceMappingURL=Profile.css.map */
