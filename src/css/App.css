@@ -21,7 +21,7 @@ body {
 @media (max-width: 768px) {
   .container {
     width: 768px;
-    height: 100vh;
+    height: 1024px;
   }
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 nav h1 {
-  margin: 22px 594px 27px 32px;
+  margin: 22px 410px 27px 32px;
   font-family: "Antonio";
   font-weight: normal;
   font-size: 28px;
