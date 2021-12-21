@@ -55,44 +55,66 @@ export const MobileNavBar = () => {
                     <span className="transparent"></span>
                     {/* <Link to="/" className="navbar-logo">The Planets</Link> */}
                     <div className="link">
-                        <span className="circle" style={styleMercury}></span>
-                        <NavLink to="/mercury" className="isActive" >Mercury</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/mercury" className="isActive">
+                            <span className="circle" style={styleMercury}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Mercury
+                        </NavLink>
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleVenus}></span>
-                        <NavLink to="/venus" className="isActive" >Venus</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/venus" className="isActive">
+                            <span className="circle" style={styleVenus}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Venus
+                        </NavLink>
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleEarth}></span>
-                        <NavLink to="/earth" className="isActive" >Earth</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        
+                        <NavLink to="/earth" className="isActive">
+                            <span className="circle" style={styleEarth}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Earth
+                        </NavLink> 
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleMars}></span>
-                        <NavLink to="/mars" className="isActive">Mars</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/mars" className="isActive">
+                            <span className="circle" style={styleMars}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Mars
+                        </NavLink>
+                        
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleJupiter}></span>
-                        <NavLink to="/jupiter" className="isActive" >Jupiter</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/jupiter" className="isActive">
+                            <span className="circle" style={styleJupiter}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Jupiter
+                        </NavLink>
+                        
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleSaturn}></span>
-                        <NavLink to="/saturn" className="isActive" >Saturn</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/saturn" className="isActive">
+                            <span className="circle" style={styleSaturn}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Saturn
+                        </NavLink>
+                        
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleUranus}></span>
-                        <NavLink to="/uranus" className="isActive" >Uranus</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/uranus" className="isActive">
+                            <span className="circle" style={styleUranus}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Uranus
+                        </NavLink>
+                        
                     </div>
                     <div className="link">
-                        <span className="circle" style={styleNeptune}></span>
-                        <NavLink to="/neptune" className="isActive" >Neptune</NavLink>
-                        <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                        <NavLink to="/neptune" className="isActive">
+                            <span className="circle" style={styleNeptune}></span>
+                            <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
+                            Neptune
+                        </NavLink>
+                        
                     </div>    
             </div>
             

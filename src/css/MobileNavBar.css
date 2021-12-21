@@ -76,9 +76,6 @@
 .links-wrapper .link {
   width: 319px;
   height: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   position: relative;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -97,6 +94,9 @@
   text-transform: uppercase;
   color: #ffffff;
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .links-wrapper .link .chevron-icon {
