@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/rdikatso/planets-website
-- Live Site URL: https://peaceful-almeida-b15186.netlify.app/mercury
+- Live Site URL: https://peaceful-almeida-b15186.netlify.app
 
 ## My process
 
