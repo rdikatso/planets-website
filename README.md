@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/rdikatso/planets-website
+- Live Site URL: https://peaceful-almeida-b15186.netlify.app/mercury
 
 ## My process
 
@@ -51,6 +51,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Dikatso](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/rdikatso)
-- Twitter - [@yourusername](https://www.twitter.com/dikatsor)
+- Frontend Mentor - https://www.frontendmentor.io/profile/rdikatso
+- Twitter - https://www.twitter.com/dikatsor

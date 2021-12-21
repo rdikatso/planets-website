@@ -46,7 +46,8 @@ function App() {
       { width < breakpoint ? <MobileNavBar/>: <NavBar />}
       <Routes>
         {/* <Route path="/" exact element={<Home/>}></Route> */}
-        <Route path="/mercury" element={<Mercury data = {mercury} screen={width}/>}></Route>
+        {/* <Route path="/mercury" element={<Mercury data = {mercury} screen={width}/>}></Route> */}
+        <Route path="/" exact element={<Mercury data = {mercury} screen={width}/>}></Route>
         <Route path="/venus" element={<Venus data = {venus} screen={width}/>}></Route>
         <Route path="/earth" element={<Earth data={earth} screen={width}/>}></Route>
         <Route path="/mars" element={<Mars data={mars} screen={width}/>}></Route>

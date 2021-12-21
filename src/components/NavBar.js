@@ -43,7 +43,7 @@ function NavBar() {
                <h1>The Planets</h1>
                <div className="navbar-container">
                     {/* <Link to="/" className="navbar-logo">The Planets</Link> */}
-                    <NavLink to="/mercury" style={({ isActive }) => isActive ? activeStyleMercury : undefined} >Mercury</NavLink>
+                    <NavLink to="/" style={({ isActive }) => isActive ? activeStyleMercury : undefined} >Mercury</NavLink>
                     <NavLink to="/venus" className="isActive" style={({ isActive }) => isActive ? activeStyleVenus : undefined}>Venus</NavLink>
                     <NavLink to="/earth" className="isActive" style={({ isActive }) => isActive ? activeStyleEarth : undefined}>Earth</NavLink>
                     <NavLink to="/mars" className="isActive" style={({ isActive }) => isActive ? activeStyleMars : undefined}>Mars</NavLink>
