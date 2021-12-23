@@ -55,7 +55,7 @@ export const MobileNavBar = () => {
                     <span className="transparent"></span>
                     {/* <Link to="/" className="navbar-logo">The Planets</Link> */}
                     <div className="link">
-                        <NavLink to="/mercury" className="isActive">
+                        <NavLink to="/" className="isActive">
                             <span className="circle" style={styleMercury}></span>
                             <img src={chevronIcon} className="chevron-icon" alt="chevron icon"></img>
                             Mercury
